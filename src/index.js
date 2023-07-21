@@ -9,7 +9,6 @@ import Menu from './pages/Menu/Menu';
 import Store from './pages/Store/Store';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-import DetailMenus from './pages/Menu/DetailMenus';
 
 const router = createBrowserRouter([
   {
@@ -27,12 +26,6 @@ const router = createBrowserRouter([
         element: <Menu />,
       },
       {
-        path: '/menu/:id',
-        element: <DetailMenus />,
-      },
-
-
-      {
         path: '/store',
         element: <Store />,
       },
@@ -40,7 +33,6 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />,
       },
-
       // {
       //   path: '/products/new',
       //   element: <NewProduct />,
