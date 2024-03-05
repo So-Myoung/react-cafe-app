@@ -10,4 +10,4 @@ yarn add react-router-dom react-icons<br>
 yarn add -D tailwindcss<br>
 yarn add firebase
 
-❗ 프로젝트 미완성(제작 중), 추후 백엔드로 Spring 사용 예정
+❗ 프로젝트 미완성(제작 중), 추후 백엔드 Spring 추가 예정
